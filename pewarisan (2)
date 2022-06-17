@@ -1,0 +1,16 @@
+package anak;
+
+/**
+ *
+ * @author ACER
+ */
+public class Hasil {
+
+   
+    public static void main(String[] args) {
+        Anak ale=new Anak();
+        ale.setnama("Alessaqif");
+        ale.Cetak();
+    }
+    
+}
