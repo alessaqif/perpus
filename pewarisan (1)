@@ -1,0 +1,17 @@
+package anak;
+
+/**
+ *
+ * @author ACER
+ */
+public class Ayah {
+    String Sifat= "Suka marah";
+    double TB= 200;
+    
+    void hobbi(){
+        System.out.println("Hobi nya adalah maen game");
+    }
+}
+
+    
+
