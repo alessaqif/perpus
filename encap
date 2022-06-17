@@ -1,0 +1,33 @@
+package encapsulasi;
+
+/**
+ *
+ * @author ACER
+ */
+class datanama{
+
+    private String nama;
+    
+    public void setnama(String nama){
+        this.nama=nama;
+    }
+    /*untuk menjaga keamanan*/
+     public String getnama(){
+        return nama;
+          /*untuk mengambil nama*/
+        
+    }
+}
+public class Encapsulasi {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        datanama m=new datanama ();
+        m.setnama("alessaqif");
+        System.out.println("namanya adalah "+m.getnama());
+    }
+    
+}
