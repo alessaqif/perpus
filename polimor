@@ -1,0 +1,36 @@
+package latihan_polimor;
+
+public interface user {
+    public static void main(String[] args) {
+        //buat object baru dari class hewan
+        hewan sapi1 = new sapi();
+        sapi1.suara();
+        sapi1.jenisMakanan();
+        sapi1.gerak();
+    }
+}
+interface hewan{
+    public String suara();
+    public String gerak();
+    public String jenisMakanan();
+}
+class sapi implements hewan {
+
+    @Override
+    public String suara() {
+        System.out.println("Mooo");
+        return null;
+    }
+
+    @Override
+    public String gerak() {
+        System.out.println("Berjalan");
+        return null;
+    }
+
+    @Override
+    public String jenisMakanan() {
+        System.out.println("Herbifora");
+        return null;
+    }
+}
